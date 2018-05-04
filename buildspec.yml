@@ -5,8 +5,8 @@ phases:
       - echo Nothing to do yes
 artifacts:
   files:
-    -index.html
-    -favicon.icons
+    - index.html
+    - favicon.ico
     - TsvetanIvanovResume.pdf
-    -styles/main.css
+    - styles/main.css
     - images/*
