@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Babel Demo</title>
+</head>
+<body>
+    <main>
+        <input type="text" id="name">
+        <button id="submit_info">Click me</button>
+        <div id="content">
+
+        </div>
+    </main>
+    <script src="http://unpkg.com/babel-standalone">
+    </script>
+
+    <script type="text/babel" data-preset="latest">
+        const getMessage = (name) => `Welcome to Javascript, ${name}! `;
+
+        const button = document.getElementById('submit_info')
+        document.getElementById('content').textContent = getMessage("Pesho")
+    </script>
+</body>
+</html>
